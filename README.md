@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2 Puanlık Quiz Uygulaması</title>
+    <title>Mizgin Müdür Olacak</title>
     <style>
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -339,4 +339,4 @@
         startGame();
     </script>
 </body>
-</html>, 
+</html>
