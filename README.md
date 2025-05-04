@@ -158,7 +158,7 @@
         // Temel soru bankası
         let questionBank = [
             {
-                question: "Türkiye'nin başkenti neresidir?",
+                question: "Gıda kaynaklı hastalıkların yayılmasına engel olmak için aşağıdakilerden hangisine dikkat edilmelidir?",
                 options: ["İstanbul", "Ankara", "İzmir", "Bursa"],
                 answer: 1,
                 explanation: "Ankara, 13 Ekim 1923'ten beri Türkiye'nin başkentidir."
