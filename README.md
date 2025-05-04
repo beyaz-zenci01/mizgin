@@ -1358,13 +1358,13 @@ Ferhat Bey'in gönderdiği testlerin tamamı!
                 score += 1; // Her doğru cevap 1 puan
                 buttons[userAnswer].classList.add('correct');
                 document.getElementById('result').innerHTML = `
-                    ? İştee buu! Bebeğim Gibisin ?? Doğru yaptın. Sana 1 Puan ve çokça sevgiler <small style="display:block;font-weight:normal">${question.explanation}</small>
+                     İştee buu! Bebeğim Gibisin ! Doğru yaptın. Sana 1 Puan ve çokça sevgiler <small style="display:block;font-weight:normal">${question.explanation}</small>
                 `;
             } else {
                 buttons[userAnswer].classList.add('wrong');
                 buttons[question.answer].classList.add('correct');
                 document.getElementById('result').innerHTML = `
-                    ? Yanlış Yaptın Mizigo! Sıfffır Sıffır Sıffır!<small style="display:block;font-weight:normal">Doğrusu şu şekerim: ${question.options[question.answer]}<br>${question.explanation}</small>
+                     Yanlış Yaptın Mizigo! Sıfffır Sıffır Sıffır!<small style="display:block;font-weight:normal">Doğrusu şu şekerim: ${question.options[question.answer]}<br>${question.explanation}</small>
                 `;
             }
             
