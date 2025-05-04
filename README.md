@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Ferhat Bey'in gönderdiği testlerin tamamı! 
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
