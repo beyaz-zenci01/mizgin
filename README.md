@@ -147,7 +147,7 @@
             <div id="progress-bar"></div>
         </div>
         <div class="score-display">Puan: <span id="score">0</span>/<span id="max-score">0</span></div>
-        <h1 id="question">Soru Yükleniyor...</h1>
+        <h1 id="question">Soru Yükleniyor... Heyecanlısın mı?</h1>
         <div id="options"></div>
         <button id="next-btn" disabled>Sonraki Soru</button>
         <div id="result"></div>
@@ -289,13 +289,13 @@
                 score += 1; // Her doğru cevap 1 puan
                 buttons[userAnswer].classList.add('correct');
                 document.getElementById('result').innerHTML = `
-                    ✔ Doğru! +1 Puan <small style="display:block;font-weight:normal">${question.explanation}</small>
+                    ✔ İştee buu! Bebeğim Gibisin 😎 Doğru yaptın. Sana 1 Puan ve çokça sevgiler <small style="display:block;font-weight:normal">${question.explanation}</small>
                 `;
             } else {
                 buttons[userAnswer].classList.add('wrong');
                 buttons[question.answer].classList.add('correct');
                 document.getElementById('result').innerHTML = `
-                    ✖ Yanlış! 0 Puan <small style="display:block;font-weight:normal">Doğru cevap: ${question.options[question.answer]}<br>${question.explanation}</small>
+                    ✖ Yanlış Yaptın Mizigo! Sıfffır Sıffır Sıffır!<small style="display:block;font-weight:normal">Doğrusu şu şekerim: ${question.options[question.answer]}<br>${question.explanation}</small>
                 `;
             }
             
@@ -329,9 +329,9 @@
 
         function getResultMessage(score, total) {
             const percentage = (score / total) * 100;
-            if (percentage >= 90) return "Neredeyse tam puan aldın Mizgin! Sen artık Müdürsün🌟";
-            if (percentage >= 70) return "Müdür olmak için yeterli puan değil. 10 soru daha bilmen gerek! 👋";
-            if (percentage >= 50) return "Mizgin soruların yarısını çözdün! Daha fazla çözmen şart.";
+            if (percentage >= 90) return "Neredeyse tam puan aldın Mizgin! Sen artık Müdürsün hayatooo🌟";
+            if (percentage >= 70) return "Müdür olmak için yeterli puan mı sence?? 10 soru daha bilmen gerek! 👋";
+            if (percentage >= 50) return "Mizgin soruların yarısını çözdün! Daha fazla çözmen gerekiyor cano.";
             return "Daha fazla çalışmaya ihtiyacın var. Pes etme Mizgin!💪";
         }
 
