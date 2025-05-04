@@ -187,12 +187,6 @@
                 answer: 2,
                 explanation: "Fırat Nehri, 2.800 km uzunluğuyla Türkiye'nin en uzun nehridir."
             }
-           {
-                question: "Yener nasıl birisi",
-                options: ["İyi", "Kötü", "Bebeğim Gibi", "Ponçik"],
-                answer: 2,
-                explanation: "Kötü."
-            }
             // Yeni soruları buraya ekleyebilirsiniz
         ];
 
